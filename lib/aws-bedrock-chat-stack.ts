@@ -16,7 +16,7 @@ export class AwsBedrockChatStack extends cdk.Stack {
     const model_runner = new NodejsFunction(this, 'model-runner', {
       handler: 'handler',
       runtime: Runtime.NODEJS_18_X,
-      entry: path.join(__dirname, '/../lambda/llama2-70b.ts'),
+      entry: path.join(__dirname, '/../lambda/model_caller.ts'),
       environment: {
         MODEL_ID: modelId
       },

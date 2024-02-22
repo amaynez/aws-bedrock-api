@@ -1,12 +1,13 @@
 # An Example of AWS BedRock using Meta's LLAMA 2 Model
 
-This example demonstrates how AWS Bedrock can be used a LLM can be used using AWS Lambda and exposed as an API.  
+This example demonstrates how AWS Bedrock can be used for a LLM (llama2-70b) model using AWS Lambda and exposed as an API.  
 PS: `This solution can be modified to use any Bedrock supported Models`
 
 This project is developed using AWS CDK in TypeScript.
 
 ## What does it build?
-* Creates an AWS Lambda function that interacts with AWS Bedrock.
+* Creates an AWS Lambda function that interacts with AWS Bedrock
+* Uses Meta's  `llama2-70b` model
 * Creates an API Gateway endpoint to expose the API
 
 ## Steps to run and test
