@@ -2,6 +2,7 @@
 
 This example demonstrates how AWS Bedrock can be used for a LLM (llama2-70b) model using AWS Lambda and exposed as an API.  
 PS: `This solution can be modified to use any Bedrock supported Models`
+
 This project is developed using AWS CDK in TypeScript.
 
 ## Solution Architecture
