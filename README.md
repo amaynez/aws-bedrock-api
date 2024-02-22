@@ -1,4 +1,4 @@
-# An Example of AWS BedRock using Meta's LLAMA 2 Model
+# An Example of AWS Bedrock GenAI application using Meta's LLAMA 2 Model
 
 This example demonstrates how AWS Bedrock can be used for a LLM (llama2-70b) model using AWS Lambda and exposed as an API.  
 PS: `This solution can be modified to use any Bedrock supported Models`
@@ -17,3 +17,6 @@ This project is developed using AWS CDK in TypeScript.
 
 ## Additional Considerations
 * LLMs takes a long time to execute.  I have extended the timeout for my lambda to be 1 minute.  Match your timeout based on your use cases.
+* Learn about [AWS Bedrock](https://aws.amazon.com/bedrock/)
+* AWS Bedrock [Foundational Models](https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html)
+
