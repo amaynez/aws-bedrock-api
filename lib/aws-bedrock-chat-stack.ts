@@ -11,7 +11,7 @@ export class AwsBedrockChatStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    const modelId = 'meta.llama2-13b-chat-v1';
+    const modelId = 'anthropic.claude-3-5-sonnet-20240620-v1:0';
 
     const model_runner = new NodejsFunction(this, 'model-runner', {
       handler: 'handler',
